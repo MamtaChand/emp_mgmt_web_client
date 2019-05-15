@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Employee Management Web CLient</title>
+    <title>LOGIN PAGE</title>
 </head>
 <body>
-    <div>Hi there</div>
+    <div>
+        <h4>Login Page </h4>
+        User Name:<input type="text"><br>
+        Password:<input type="password"><br>
+        <input type="button" value ="Log In" id="login">
+    </div>
+    <script>
+    const button = document.getElementById('login');
+button.addEventListener('click', function(){
+    const UsernameNode = document.getElementById('username');
+    const Password = document.getElementById('passsword');
+
+    //retrieve password
+    //retrieve username
+    //send a request to express server(fetch/)
+    //validate the user
+    //finally send the user to dashboard
+})
+    </script>
 </body>
 </html>
